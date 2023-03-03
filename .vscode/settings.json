@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./mywebsite_3_10_10/mywebsite"
+    ]
+}

@@ -17,7 +17,7 @@ class Product(models.Model):
     title = models.CharField(max_length=255)
     slug = models.SlugField(max_length=255)
     description = models.TextField(blank = True, null = True)
-    price = models.DecimalField(max_digits = 5, decimal_places = 2)
+    price = models.FloatField()
     is_featured = models.BooleanField(default=False)
     date_added = models.DateTimeField(auto_now_add=True)
 
